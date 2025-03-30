@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#sim {
+    background-color: green;
+    color: white;
+}
+#nao {
+    background-color: red;
+    color: white;
+    position: absolute;
+}
